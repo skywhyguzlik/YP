@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72acc6d77d7144c1bad579a1d195ab03" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_UPModel.ApplicationStatuses" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.AuthorApplications" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.BookGenres" Width="1.5" PointX="7.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Books" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.ComplaintReasons" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Complaints" Width="1.5" PointX="7.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.ComplaintTargetTypes" Width="1.5" PointX="5.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Genres" Width="1.5" PointX="5.25" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.ReadingLists" Width="1.5" PointX="10.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Reviews" Width="1.5" PointX="10.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Roles" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.StatusBooks" Width="1.5" PointX="8.25" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.UnfreezeApplications" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UPModel.Users" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="DB_UPModel.FK__AuthorApp__Statu__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__UnfreezeA__Statu__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__AuthorApp__UserI__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK_BookGenres_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK_BookGenres_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Books__AuthorId__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__ReadingLi__BookI__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Reviews__BookId__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK_Complaints_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK_UnfreezeApplications_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Complaint__Reaso__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Complaint__Targe__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Complaint__UserI__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__ReadingLi__Statu__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__ReadingLi__UserI__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Reviews__UserId__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__Users__RoleId__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UPModel.FK__UnfreezeA__UserI__04E4BC85" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

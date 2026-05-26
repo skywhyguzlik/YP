@@ -1,0 +1,23 @@
+﻿<Window x:Class="YP.Pages.WindowReadText"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YP.Pages"
+        mc:Ignorable="d"
+        Title="WindowReadText" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="AntiqueWhite">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Margin="0,0,0,15">
+            <Button x:Name="BtnBack" Content="Назад" Foreground="White" Background="#8895af" BorderThickness="0" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Center" Width="80" Height="30" Click="ButtonBack_Click"/>
+            <TextBlock Text="Чтение текста" FontSize="22" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <TextBox x:Name="TxtContent" Grid.Row="1" IsReadOnly="True" TextWrapping="Wrap" FontSize="16" Padding="20" Background="#e6e0e0" Foreground="#333333" VerticalScrollBarVisibility="Auto" BorderThickness="0"/>
+    </Grid>
+</Window>
